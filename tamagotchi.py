@@ -1,4 +1,5 @@
 from tamagotchi1 import *
+
 while True:
     pessoa1=Pessoa("João",50,20)
     print("""Menu: 
@@ -27,5 +28,6 @@ while True:
         pessoa1.parardeandar()
     elif opcao == "7":
         break
+        #falta fazer com que ele consulte a resposta anterior
 
 print("Programa finalizado")
